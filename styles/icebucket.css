@@ -1,0 +1,60 @@
+* {
+    background-color: #fca6c9;
+    text-align: center;
+
+    /* border: 2px solid blue */
+}
+
+body {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+#bottomquote {
+    color: white;
+    max-width: 100%;
+    font-size: 60px;
+
+    margin: 0 auto;
+}
+h3 {
+    font-size: 35px;
+    color: white;
+}
+h4 {
+    color: white;
+    font-size: 30px;
+}
+
+h1:hover {
+    color: black;
+}
+
+ol {
+    display: block;
+    margin: 0 auto;
+    /* max-width: 20%; */
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+    /* margin: 0; */
+}
+
+img {
+    width: 50%
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
