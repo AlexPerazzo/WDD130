@@ -1,0 +1,28 @@
+div {
+    /* background-color: gray; */
+    /* margin: 0;
+    padding: 0;
+    border: 0; */
+    text-align: center;
+}
+
+#hero {
+    /* margin: 0;
+    border: 0;
+    padding: 0; */
+    background-color: blue;
+    width: 100%
+}
+
+.photo {
+    border: 20px solid #3e3e3e;
+    border-radius: 50%;
+    width: 20%;
+    margin: 4%;
+}
+
+body {
+    margin: 0;
+    background-color: gray;
+}
+
