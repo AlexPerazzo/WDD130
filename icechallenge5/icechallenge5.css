@@ -1,0 +1,57 @@
+#everything {
+    margin: 0 auto;
+    justify-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+}
+
+#maintext {
+    background-color: white;
+
+    margin: 0 auto;
+
+}
+
+header {
+    margin: 0 auto;
+    font-size: 0;
+}
+
+footer {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: #3F5B8B;
+    display: grid;
+    margin: 0 auto;
+    
+}
+
+h4 {
+    color:rgb(35, 150, 150);
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
+h2 {
+    color: rgb(84, 81, 81);
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+h3, h5 {
+    /* margin-top: 0px; */
+    color: white;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(44, 42, 42);
+}
