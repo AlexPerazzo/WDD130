@@ -5,6 +5,39 @@
   --paragraph-font: Inter, Helvetica, sans-serif;
 }
 
+/* EDIT */
+.accordion {
+  background-color: #235B34;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 500px;
+  border-color: #66584E;
+  outline-color: #66584E;
+  transition: 0.4s;
+  margin: 0 auto;
+  display: flex;
+  /* text-align: center; */
+  
+}
+
+.active, .accordion:hover {
+  background-color: #43BE7D;
+}
+.panel p {
+  padding: 10px
+}
+.panel {
+  /* padding: 10px; */
+  background-color: #235B34;
+  display: none;
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+  font-size: small;
+}
+/* EDIT */
+
 body {
   background-color: #43271C;
   color: white;
@@ -53,6 +86,19 @@ nav a:hover {
   grid-template-columns: repeat(10, 1fr);
 }
 
+#accordioncontent {
+  position: absolute;
+  bottom: 0;
+  padding-left: 33%;
+
+}
+
+
+#hero-faq {
+  width: 100%;
+  z-index: -1;
+}
+
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
@@ -73,6 +119,7 @@ nav a:hover {
 
 #hero-img {
   width: 100%;
+  z-index: -1;
 }
 
 #hero-msg h1, #hero-msg h4 {
