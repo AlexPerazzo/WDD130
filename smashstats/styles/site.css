@@ -1,0 +1,110 @@
+.playergrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* * {
+    outline: 1px solid red;
+} */
+
+main {
+    width: 100%;
+}
+
+.wins {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    width: 100%;
+    font-size: 30px;
+}
+
+.H2Hs {
+    grid-row: 1 / -1;
+    grid-column: 2 / 3;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+.losses {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.lossesul, .winsul {
+    padding-top: 100px;
+}
+
+
+.bestmove {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    width: 100%;
+}
+
+.character {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    width: 100%;
+}
+
+.bestmoveimg {
+    width: 100%;
+}
+
+.characterimg {
+    width: 100%;
+}
+
+.logo {
+    width: 80px;
+    height: 100%;
+}
+
+.footergrid, .headergrid {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#maguireheader {
+    border-bottom: 5px solid pink;
+}
+
+#maguirefooter {
+    border-top: 5px solid pink;
+}
+
+#echoheader {
+    border-bottom: 5px solid black;
+}
+
+#echofooter {
+    border-top: 5px solid black;
+}
+
+
+.footerlinks {
+    width: 80px;
+    height: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+}
