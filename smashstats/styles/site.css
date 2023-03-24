@@ -98,6 +98,16 @@ main {
     width: 100%;
 }
 
+#maguireh2h {
+    border-left: 10px solid pink;
+    border-right: 10px solid pink;
+}
+
+#echoh2h {
+    border-left: 10px solid black;
+    border-right: 10px solid black;  
+}
+
 .losses {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
